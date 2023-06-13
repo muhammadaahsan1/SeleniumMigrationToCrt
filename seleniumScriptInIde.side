@@ -1,0 +1,383 @@
+{
+  "id": "1f59f3a5-80e6-477f-bf72-f2d6d77ab734",
+  "version": "2.0",
+  "name": "seleniumScriptInIde",
+  "url": "https://plumlogix.com",
+  "tests": [{
+    "id": "7be6f98d-f36a-48be-a1ec-bf45e36b542b",
+    "name": "plumlogixTesting",
+    "commands": [{
+      "id": "59e7ae84-0c4a-4d18-90dd-3916e2a656e9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33a0d65c-4d85-4238-aa26-acf37074cb96",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43595937-debe-4fe8-a221-ed966e205aca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Services",
+      "targets": [
+        ["linkText=Services", "linkText"],
+        ["css=#menu-item-6435 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Services')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6435']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plumlogix.com/our-services/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c88dda9-10f4-406c-8e1b-9e7658faecc1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Industry Experience",
+      "targets": [
+        ["linkText=Industry Experience", "linkText"],
+        ["css=#menu-item-6724 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Industry Experience')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6724']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plumlogix.com/industry-experience/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Industry Experience')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc02499-9f20-41e5-9fcf-b832b7504843",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Case Studies",
+      "targets": [
+        ["linkText=Case Studies", "linkText"],
+        ["css=#menu-item-9084 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Case Studies')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-9084']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plumlogix.com/projects/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Case Studies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a70e8036-a26d-4736-85ac-350d179bc69a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Careers",
+      "targets": [
+        ["linkText=Careers", "linkText"],
+        ["css=#menu-item-6581 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6581']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plumlogix.com/careers/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Careers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03f6e422-15aa-4768-bd20-be7184b5e2a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=#menu-item-6015 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6015']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plumlogix.com/blog/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d902fa-6ff6-412e-9b71-1db98fb20b85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=#menu-item-6015 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6015']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plumlogix.com/blog/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbcf410f-81c0-4bbe-a4db-76f341b0f102",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=#menu-item-10555 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-10555']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plumlogix.com/contact-us/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fc03e7e-12a2-4468-b4cc-623ef86a4efc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "586c317a-6a71-41ac-8434-f696fcb6e452",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=firstname-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//input[@id='firstname-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79ac2fe6-2489-4759-8d03-6317b3268f77",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=firstname-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//input[@id='firstname-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ahsan"
+    }, {
+      "id": "548c4ed7-4f48-4c14-a1df-aa7e5a7aeca4",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["name=email", "name"],
+        ["css=#email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//input[@id='email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test@gmail.com"
+    }, {
+      "id": "e2a8df25-9948-4b12-b8c1-8758d70f8212",
+      "comment": "",
+      "command": "type",
+      "target": "id=company-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=company-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["name=company", "name"],
+        ["css=#company-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//input[@id='company-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "plumlogix"
+    }, {
+      "id": "de22fc98-bba6-4560-bbac-f3ad5f4e4f08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e878b085-157a-4408-ad78-1f502cbbdd79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "256efd94-3907-45ac-931a-da374a55e4f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["name=message", "name"],
+        ["css=#message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//textarea[@id='message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset[3]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d40db70d-e9e0-487b-b3fb-501a222c2ba7",
+      "comment": "",
+      "command": "type",
+      "target": "id=message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["name=message", "name"],
+        ["css=#message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//textarea[@id='message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset[3]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "aaa"
+    }, {
+      "id": "a466dd43-7af4-44c6-ab74-c745ef7223ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dce52066-02f1-4e86-aae9-ffcca1d0e0d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d339536d-c6c8-46f8-b831-4527ea4a58d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "586451f8-de16-4f5b-8c06-45b6087aa75f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f70998a9-11e2-4547-be99-9cd1768876a4",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2231bf1b-2a28-41f1-b659-b7dbf7a9d86d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a372abbe-f9ed-40b0-89c9-da06ac7899e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["name=email", "name"],
+        ["css=#email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//input[@id='email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "298d3dab-eda8-41db-99c2-068ec7c25517",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["name=email", "name"],
+        ["css=#email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//input[@id='email-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test123@gmail.com"
+    }, {
+      "id": "686f2b74-3776-4320-ba50-891ef3926ec5",
+      "comment": "",
+      "command": "click",
+      "target": "id=label-message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013",
+      "targets": [
+        ["id=label-message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "id"],
+        ["css=#label-message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013", "css:finder"],
+        ["xpath=//label[@id='label-message-76b1608a-e84d-4e82-8d2c-0b7b43ed0013']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/fieldset[3]/div/label", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13ba10f6-52cb-409c-8642-04ef6958923d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs-button",
+      "targets": [
+        ["css=.hs-button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_76b1608a-e84d-4e82-8d2c-0b7b43ed0013']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6ebf8561-e19c-4f15-9b72-1a73c8898282",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7be6f98d-f36a-48be-a1ec-bf45e36b542b"]
+  }],
+  "urls": ["https://plumlogix.com/"],
+  "plugins": []
+}
